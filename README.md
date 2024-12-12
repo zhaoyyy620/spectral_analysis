@@ -1,20 +1,15 @@
 Total workflow of spectral modeling analysis, including data preprocessing, wavelength selection, dataset splitting, regression, classification, clustering, and related process visualization.
 The related algorithm flow is as follows:
+
 ![图片1](https://github.com/user-attachments/assets/60bf3221-b126-4dd3-b9c0-a64aae484bbc)
+
 Spectral preprocessing includes 11 methods: MMS, SS, CT, SNV, MA, SG, MSC, FD1, FD2, DT, and WVAE. 
-
 Wavelength selection utilizes six dimensionality reduction techniques: CARS, SPA, LARS, UVE, GA, and PCA.
-
 Dataset splitting methods include Random, SPXY, and KS.
-
 For regression modeling, both traditional chemometric quantitative analysis methods, such as PLSR, RF, SVR, ELM, and ANN, and advanced deep learning approaches, including CNN and Transformer, are provided.
-
 Classification models comprise traditional chemometric methods, such as PLS-DA, ANN, SVM, and RF, as well as advanced deep learning models like CNN, SAE, and Transformer.
-
 Clustering methods include KMeans and FCM.
-
 Finally, the model evaluation module offers commonly used metrics for assessing model performance, ensuring comprehensive evaluation of results.
-
 
 Main function: main.py
 Spectral data loading: DataLoad.py
